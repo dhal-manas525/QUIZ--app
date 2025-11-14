@@ -1,0 +1,71 @@
+/* Reset and font setup */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Page background */
+body {
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Quiz box */
+.quiz-container {
+  background: #fff;
+  width: 400px;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+  padding: 25px 30px;
+  text-align: center;
+}
+
+/* Question text */
+h2 {
+  font-size: 22px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Answer buttons */
+.btn {
+  display: block;
+  background: #2575fc;
+  color: #fff;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  margin: 8px 0;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background: #6a11cb;
+}
+
+/* Next button style */
+#next-btn {
+  background: #4CAF50;
+  display: none;
+}
+
+#next-btn:hover {
+  background: #388E3C;
+}
+
+/* Correct / Incorrect color styles */
+.correct {
+  background: #4CAF50 !important;
+}
+
+.incorrect {
+  background: #f44336 !important;
+}
