@@ -8,7 +8,7 @@
 
 /* Page background */
 body {
-  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  background: linear-gradient(135deg, #2a3039, #8791a3);
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -48,7 +48,7 @@ h2 {
 }
 
 .btn:hover {
-  background: #6a11cb;
+  background: #8a779f;
 }
 
 /* Next button style */
@@ -68,4 +68,13 @@ h2 {
 
 .incorrect {
   background: #f44336 !important;
+}
+.header{
+  text-align: left;
+  font-family: Arial;
+  color: rgb(167, 223, 141);
+  font-style: bold;
+
+  
+
 }
